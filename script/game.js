@@ -23,7 +23,7 @@ class Game {
             this.targetOver = new Target("overTarget");
             this.targetOver.createTarget("#1b1725", 10);
         }
-        else if (event > 50 && event < 70) {
+        else if (event > 50 && event < 60) {
             this.targetTimeUp.createTargetTime();
             this.targetTimeUp.addTargetInMap();
         }

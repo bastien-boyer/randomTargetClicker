@@ -25,6 +25,7 @@ function actualiseTimer () {
         clearInterval(intervalTimer);
         timer.innerText = "Timer : --:--";
         stats.displayStats();
+        game.endGame();
         return;
 
     }
