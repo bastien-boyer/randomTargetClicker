@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link href="style/style.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	<title>Random Target Clicker</title>
+</head>
+
+<body>
+	<header class="header">
+		<h1 class="appName">Random Target clicker !</h1>
+		<div class="gameSettings">
+			<h1 class="score">Score 0</h1>
+
+			<!--Block de gestion  de la difficulté et du bouton play-->
+			<div class="startGame">
+				<label for="selectDiffuculty">DIFFICULTY</label>
+				<select name="difficulty" id="selectDifficulty" class="difficulty btn">
+					<option value="1">EASY</option>
+					<option value="2" selected>MEDIUM</option>
+					<option value="4">HARD</option>
+				</select>
+				<button class="play btn">Play !</button>
+			</div>
+			<h1 id="timer">Timer --:--</h1>
+		</div>
+
+	</header>
+
+	<div class="gameMap"></div>
+	<div class="stats">
+		<div class="clickNumber"></div>
+		<div class="timeEarn"></div>
+		<div class="timeLoss"></div>
+	</div>
+
+	<script src="script/stats.js"></script>
+	<script src="script/target.js"></script>
+	<script src="script/game.js"></script>
+	<script src="script/timer.js"></script>
+	<script src="script/handleEventListener.js"></script>
+</body>
+
+</html>
