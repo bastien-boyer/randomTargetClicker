@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid black 5px;
+    border-radius: 5%;
+}
+
+.appName {
+    text-align: center;
+}
+
+.gameSettings {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.startGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+
+.play {
+    font-size: large;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.gameMap 
+{
+    position: relative;
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    margin-top: 3%;
+    border: 3px black solid;
+  
+}
+.btn {
+    cursor: pointer;
+    background-color: white;
+    border: solid black 3px;
+}
+
+.targetBtn{
+    position: absolute;
+    z-index: 10;
+    background: #dbfee4;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    opacity: 0%;
+}
+
+
+.contour {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background: #db2955;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    background: white;
+}
+
+.center {
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background: #db2955
+}
+
+.targetTimeUp {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #0b5351;
+    opacity: 100%;
+}
+
+.targetTimeDown {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #db2955;
+    opacity: 100%;
+
+}
+
+.stats {
+    margin : 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
