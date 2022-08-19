@@ -114,7 +114,7 @@ html {
 }
 
 .stats {
-    margin : 1%;
+    margin : 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
